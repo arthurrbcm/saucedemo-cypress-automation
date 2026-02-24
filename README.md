@@ -6,7 +6,6 @@ End-to-end test automation project using Cypress.
 - Cypress
 - JavaScript
 - Page Object Model
-- API validation with cy.request()
 
 ## Test Coverage
 - Login (positive and negative)
