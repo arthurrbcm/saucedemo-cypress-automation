@@ -57,7 +57,7 @@ Cart persistence validation
 - Cypress
 - JavaScript
 - Page Object Model
-- 
+
 ## 📈 Future Improvements
 
 CI integration (GitHub Actions)
