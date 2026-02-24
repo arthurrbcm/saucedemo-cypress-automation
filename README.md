@@ -1,8 +1,8 @@
-🚀 SauceDemo – Cypress Automation Project
+## 🚀 SauceDemo – Cypress Automation Project
 
 End-to-end test automation project for the SauceDemo application using Cypress.
 
-📌 About the Project
+## 📌 About the Project
 
 This project demonstrates a scalable and maintainable test automation using:
 
@@ -34,7 +34,7 @@ cypress/
  ├── support/
  └── fixtures/
  
-✅ Test Coverage
+## ✅ Test Coverage
 🔐 Login
 
 Valid login
