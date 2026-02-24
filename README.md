@@ -58,15 +58,17 @@ Cart persistence validation
 - JavaScript
 - Page Object Model
 
-## 📈 Future Improvements
+## 🧪 Test Strategy
 
-CI integration (GitHub Actions)
+Explain:
 
-Test reporting
+Functional tests
 
-Environment configuration
+Negative scenarios
 
-Custom commands abstraction
+UI validations
+
+Business rules covered
 
 ## ▶️ How to Run the Project
 
