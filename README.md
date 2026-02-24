@@ -1,41 +1,61 @@
-## 🚀 SauceDemo – Cypress Automation Project
+## 🚀 SauceDemo – Test Automation Framework
 
-End-to-end test automation project for the SauceDemo application using Cypress.
+End-to-end test automation framework for the SauceDemo web application built with Cypress, following scalable engineering practices and modern test automation principles.
 
-## 📌 About the Project
+## 📌 Project Overview
 
-This project demonstrates a scalable and maintainable test automation using:
+This project was designed to simulate a real-world QA automation scenario, focusing on:
 
-Cypress
-
-JavaScript (ES6+)
-
-Page Object Model (POM)
-
-Clean folder structure
-
-Best practices for UI automation
-
-The goal is to simulate a real-world QA automation scenario.
-
-The project follows the Page Object Model (POM) pattern to improve:
-
-Reusability
-
-Readability
+Test reliability
 
 Maintainability
 
+Scalability
+
+Clear separation of concerns
+
+Readable and reusable code structure
+
+The framework follows the Page Object Model (POM) pattern and applies clean architecture principles to ensure long-term maintainability.
+
+## 🏗 Architecture & Design Decisions
+🔹 Why Page Object Model?
+
+The Page Object Model was chosen to:
+
+Isolate UI selectors
+
+Improve test readability
+
+Reduce duplication
+
+Simplify maintenance
+
+Encourage single responsibility
+
+🔹 Folder Structure
+cypress/
+├── e2e/            → Test specifications
+├── pages/          → Page Objects (UI abstraction layer)
+├── fixtures/       → Test data
+├── support/        → Custom commands and global configuration
+🔹 Design Principles Applied
+
 Separation of concerns
 
-cypress/
- ├── e2e/
- ├── pages/
- ├── support/
- └── fixtures/
- 
-## ✅ Test Coverage
-🔐 Login
+Reusability
+
+Clear test scenarios
+
+Independent test execution
+
+Scalable structure for future expansion
+
+## 🧪 Test Strategy
+
+The test suite covers core business flows of the application.
+
+## 🔐 Authentication
 
 Valid login
 
@@ -43,32 +63,39 @@ Invalid login
 
 Error message validation
 
-🛒 Inventory & Cart
+URL and state validation after login
+
+## 🛒 Inventory & Cart
 
 Product listing validation
 
-Add to cart
+Add product to cart
 
-Remove from cart
+Remove product from cart
 
-Cart persistence validation
+Cart state persistence validation
 
-## Tech Stack
-- Cypress
-- JavaScript
-- Page Object Model
+## 🔎 Validation Strategy
 
-## 🧪 Test Strategy
+Tests validate:
 
-Explain:
+DOM elements visibility and content
 
-Functional tests
+Business rules (cart behavior)
 
-Negative scenarios
+URL changes
 
-UI validations
+Application state consistency
 
-Business rules covered
+Assertions are designed to ensure functional correctness rather than only visual validation.
+
+## 🛠 Tech Stack
+
+Cypress
+
+JavaScript (ES6+)
+
+Page Object Model (POM)
 
 ## ▶️ How to Run the Project
 
