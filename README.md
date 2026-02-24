@@ -58,15 +58,7 @@ Cart persistence validation
 - JavaScript
 - Page Object Model
 - 
-## ▶️ How to Run the Project
-
-Install dependencies:
-
-```bash
-npm install
-npx cypress open
-
-📈 Future Improvements
+## 📈 Future Improvements
 
 CI integration (GitHub Actions)
 
@@ -75,3 +67,12 @@ Test reporting
 Environment configuration
 
 Custom commands abstraction
+
+## ▶️ How to Run the Project
+
+Install dependencies:
+
+```bash
+npm install
+npx cypress open
+
