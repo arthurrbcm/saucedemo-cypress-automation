@@ -11,7 +11,6 @@ End-to-end test automation project using Cypress.
 - Login (positive and negative)
 - Cart functionality
 - Inventory validation
-- Page load validation (status 200)
 
 ## How to run
 
