@@ -58,11 +58,9 @@ Cart persistence validation
 - JavaScript
 - Page Object Model
 - 
-▶️ How to Run the Project
+## ▶️ How to Run the Project
 
 Install dependencies:
-
-## How to run
 
 ```bash
 npm install
